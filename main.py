@@ -21,7 +21,7 @@ for _ in itertools.repeat(None, 8):
     browser.get("https://www.minuteinbox.com")
 
     # Your Refereal Link
-    browser.execute_script("window.open('https://app.treasure.cloud/auth/signup?code=YjcwMzZlZTgtYjRjMy0xMWViLTg4NGEtODkyZjJmMTM4YzZmOmYwYTE0NjdhLTMyYzEtMTFlYi1iMWI4LTViYTQzMmY1ZjBkMA==');")
+    browser.execute_script("window.open('https://app.treasure.cloud/auth/signup?code=YWVlYmZlNWMtYzE3OC0xMWViLWExMmEtNTdkYjU4MzhmNzI5OmYwYTE0NjdhLTMyYzEtMTFlYi1iMWI4LTViYTQzMmY1ZjBkMA==');")
     
 
     browser.switch_to.window(browser.window_handles[0])
